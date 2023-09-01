@@ -1,0 +1,59 @@
+/* Common Shared Styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.description{
+    color: #757575;
+    font-weight: 500;
+}
+.parent-div div{
+    max-width: 700px;
+}
+.introduction{
+   max-width: 700px;
+}
+body{
+    padding: 100px;
+}
+.common-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    align-items: center;
+}
+.title{
+    font-size: 30px;
+}
+#title-content{
+    color: #474747;
+}
+
+/* header */
+#span-title{
+    color: orange;
+}
+#first-btn{
+    color: black;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.image-div img{          
+    height: 400px;          /*to make the circle background, height and width must be same*/
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 50%;       /*border radius will be 50%*/
+}
+/* Main */
+.empty-div{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+#second-btn{
+    color: blue;
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+}
