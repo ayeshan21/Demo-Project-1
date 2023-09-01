@@ -5,21 +5,21 @@
 .description{
     color: #757575;
     font-weight: 500;
-}
-.parent-div div{
-    max-width: 700px;
-}
-.introduction{
-   max-width: 700px;
+    width: 600px;
 }
 body{
-    padding: 100px;
+     margin: 0;
+     padding: 50px;
+}
+.common-div div{
+    width: 900px;
 }
 .common-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 150px;
-    align-items: center;
+    align-items: center; 
+    padding: 20px;
 }
 .title{
     font-size: 30px;
@@ -27,33 +27,46 @@ body{
 #title-content{
     color: #474747;
 }
+#first-btn, #second-btn{
+    color: blue;
+    background-image: linear-gradient(red,yellow); /*for multiple colors effect*/
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
 
 /* header */
+.header{
+    background-image: url('image/top-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #span-title{
     color: orange;
 }
-#first-btn{
-    color: black;
-    background-color: cornflowerblue;
-    padding: 10px;
-    border-radius: 5px;
-}
-.image-div img{          
-    height: 400px;          /*to make the circle background, height and width must be same*/
+
+.header-image-div img{          
+    height: 400px;          
     width: 400px;
-    background-color: antiquewhite;
-    border-radius: 50%;       /*border radius will be 50%*/
+    background-image: url('image/bg1.png');
+    background-repeat: no-repeat;  
+    background-size: contain;
+    margin-right: 150px;
 }
 /* Main */
 .empty-div{
     height: 400px;
     width: 400px;
-    background-color: crimson;
-    border-radius: 50%;
+    background-image: url('image/bg2.png');
+    background-repeat: no-repeat ;
+    background-size: contain;
 }
 #second-btn{
-    color: blue;
-    background-color: greenyellow;
-    padding: 10px;
-    border-radius: 5px;
+    background-image: linear-gradient(green,yellow);
 }
+.main-second-div{
+    background-image: url('image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
